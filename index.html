@@ -28,7 +28,80 @@
 
   <body>
     
+ <!-- ========== 1. NAVBAR + HERO ========== -->
+    <header>
+      <nav
+        class="navbar navbar-expand-lg navbar-dark bg-dark shadow"
+        aria-label="Menú principal"
+      >
+        <div class="container">
+          <a class="navbar-brand fw-bold fs-4" href="#inicio">Grupo 4</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#menu"
+            aria-controls="menu"
+            aria-expanded="false"
+            aria-label="Abrir menú de navegación"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
+          <div id="menu" class="collapse navbar-collapse">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="#inicio">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#servicios">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#nosotros">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#proyectos">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#blog">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Hero Section -->
+      <section
+        id="inicio"
+        class="text-white text-center d-flex align-items-center justify-content-center"
+        style="
+          min-height: 90vh;
+          background: linear-gradient(
+              to bottom right,
+              rgba(0, 0, 0, 0.7),
+              rgba(0, 0, 0, 0.8)
+            ),
+            url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1600&q=80')
+              center/cover;
+        "
+      >
+        <div class="container">
+          <h1 class="display-4 fw-bold">
+            Impulsamos tu transformación digital
+          </h1>
+          <p class="lead mb-4">
+            Soluciones informáticas a la medida de tu empresa, con innovación y
+            tecnología de vanguardia.
+          </p>
+          <a href="#servicios" class="btn btn-primary btn-lg"
+            >Explora nuestros servicios</a
+          >
+        </div>
+      </section>
+    </header>
     <main>
       
       <!-- ========== 3. NOSOTROS ========== -->
